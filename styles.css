@@ -1,0 +1,114 @@
+body {
+  font-family: Ubuntu;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(47, 145, 186);
+  background: linear-gradient(
+    90deg,
+    rgba(47, 145, 186, 1) 10%,
+    rgba(210, 10, 230, 1) 46%,
+    rgba(0, 161, 255, 1) 81%
+  );
+}
+a {
+  text-decoration: none;
+}
+.login {
+  background: rgb(249, 178, 174);
+  background: linear-gradient(
+    210deg,
+    rgba(249, 178, 174, 1) 0%,
+    rgba(228, 228, 228, 1) 100%
+  );
+  width: 90%;
+  padding: 70px 30px 44px;
+  border-radius: 1.25rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 36px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 25px;
+}
+h3 {
+  margin: 0 0 20px;
+  color: grey;
+}
+.login-form {
+  display: grid;
+  gap: 30px;
+  place-items: center;
+  width: 100%;
+  margin: 0;
+}
+.input-password {
+  width: 240px;
+  background-color: transparent;
+  color:rgb(34, 32, 32);
+  border: 0;
+  border-bottom: 2px solid transparent;
+  font-size: 18px;
+  padding: 0;
+  text-align: center;
+  transition: all 0.3s;
+  border-color: rgb(108, 108, 108);
+}
+.input-password:hover {
+  border-color: purple;
+}
+.input-password:focus {
+  border-color: transparent;
+  outline: purple;
+}
+.btn-log {
+  cursor: pointer;
+  width: 100%;
+  height: 56px;
+  background: #303f9f;
+  color: #f9f9f9;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400px;
+  transition: all 0.3s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-log:hover {
+  background-color: #1976d2;
+}
+
+.link-password {
+  margin-top: 15px;
+  color: #303f9f;
+  font-size: 18px;
+  text-align: left;
+  transition: all 0.3s;
+}
+.link-password:hover {
+  color: #1976d2;
+}
+
+@media (width >=450px) {
+  .login {
+    width: 380px;
+  }
+}
+@media (width >= 500px) {
+  body {
+    padding: 0;
+  }
+}
+@media (width >= 1200px) {
+  .login {
+    width: 25%;
+  }
+}
